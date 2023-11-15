@@ -118,6 +118,19 @@ input:focus{
     
 }
 
+input.pwd-error{
+
+    border: 2px solid #cc0000;
+
+}
+
+.pwd-error-msg{
+
+    color: #cc0000;
+    margin-top: 30px;
+
+}
+
 .container button{
 
     width: 30%;
