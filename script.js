@@ -11,6 +11,14 @@ submitBtn.addEventListener('click', function(e) {
   if(passwordInput.value !== passwordConfInput.value){
     e.preventDefault();
 
+    let existingErrorMsg = document.querySelector('.pwd-error-msg')
+
+    if(existingErrorMsg){
+
+      existingErrorMsg.remove();
+
+    }
+
     passwordInput.classList.add('pwd-error')
     passwordConfInput.classList.add('pwd-error')
 
