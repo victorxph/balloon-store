@@ -22,7 +22,6 @@ form{
     height: 80vh;
     width: 60vw;
     display: flex;
-    /* flex-direction: row; */
     background-color: #F9FAFB;
     border-radius: 1.15em;
 
@@ -60,30 +59,31 @@ form h2{
 
     font-size: 1em;
     font-weight: 500;
+
+}
+
+.input-container{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
     margin-bottom: 2em;
 
 }
 
 /* .input-container{
 
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-    width: 100%;
-
-} */
-.input-container{
-
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 5%;
     row-gap: 10%;
     flex: 1 1 1em;
     height: fit-content;
     max-height: 300px;
-    margin-bottom: 1.5em;
-}
+    margin-bottom: 3em;
+} */
 
 .input-container label{
 
@@ -96,6 +96,7 @@ form h2{
 
     display: flex;
     flex-direction: column;
+    max-width: 40%;
 
 }
 
@@ -103,9 +104,9 @@ form h2{
 
     border: 1px solid rgba(226, 226, 226, 0.582);
     border-radius: .25em;
-    padding: 0.25em;
+    padding: 0.5em;
     flex: 1 1 auto;
-    max-height: 2.5em;
+    max-height: 3em;
 
 }
 
@@ -115,12 +116,11 @@ input:focus{
     border: 1px solid #2C2A2C;
     outline: none;
     
-    
 }
 
 .container button{
 
-    width: 30%;
+    width: 40%;
     height: 3em;
     padding: .5em;
     border: none;
@@ -139,8 +139,13 @@ form span{
 
 }
 
-span a{
-
+a{
     text-decoration: none;
     color: #FF4686;
+}
+
+span a{
+
+    text-decoration: underline;
+
 }
