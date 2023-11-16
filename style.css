@@ -19,8 +19,8 @@ html{
 
 form{
 
-    height: 80vh;
-    width: max(60vw, 800px);
+    height: max(80vh, 500px);
+    width: clamp(800px, 1000px, 60vw);
     display: flex;
     /* flex-direction: row; */
     background-color: #F9FAFB;

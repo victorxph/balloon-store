@@ -19,8 +19,8 @@ html{
 
 form{
 
-    height: 80vh;
-    width: 60vw;
+    height: max(80vh, 500px);
+    width: clamp(800px, 1000px, 60vw);
     display: flex;
     background-color: #F9FAFB;
     border-radius: 1.15em;
