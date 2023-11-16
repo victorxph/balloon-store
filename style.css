@@ -20,7 +20,7 @@ html{
 form{
 
     height: 80vh;
-    width: 60vw;
+    width: max(60vw, 800px);
     display: flex;
     /* flex-direction: row; */
     background-color: #F9FAFB;
